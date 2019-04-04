@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Percentile";
+}
+
+<h1>99.5 Percentile of Dataset</h1>
+
+<div>@Model.percentileFormatted</div>
+
+<div>@Model.errorMessage</div>
